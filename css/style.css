@@ -1,0 +1,246 @@
+
+/* Typical Device Breakpoints
+-------------------------------
+Small Screens: til 600px
+Smartphones: 600px til 768px
+Tablets: 768px til 992px
+Desktops: 992px til 1200px
+Big Screens: above 1200px */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eae3e3dd;
+}
+
+/* Banner Section */
+
+.banner{
+    background: linear-gradient(to right, rgba(3, 3, 45, 0.851), rgba(28, 51, 133, 0.696)), url("../images/banner-coding.jpg") no-repeat center/cover;
+    height: 60vh;
+    color: #fff;
+    min-width: 425px;
+}
+
+.banner-center{
+    text-align: center;
+    padding: 8rem 6rem;
+    margin: 0 auto;
+}
+
+.banner-center h1{
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.banner-center p{
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 3rem;
+}
+
+#banner-link{
+    background: #222;
+    border: 1px solid #ffffff5a;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    padding: 1.2rem 1.8rem;
+}
+
+#banner-link:hover{
+    background: #fff;
+    color: black;
+}
+
+/* Media Query - Mobile*/
+
+@media (max-width: 600px){
+    
+    .banner{
+        background: linear-gradient(to right, rgba(3, 3, 45, 0.851), rgba(28, 51, 133, 0.696)), url("../images/banner-coding.jpg") no-repeat center/cover;
+        height: 80vh;
+        color: #fff;
+        min-width: 425px;
+    }
+
+    .banner-center{
+        text-align: center;
+        padding: 8rem 1rem;
+        margin: 0 auto;
+    }
+
+}
+
+/* Middle (Hero) Section */
+
+.hero{
+    height: 30vh;
+}
+
+.hero-center{
+    text-align: center;
+    margin: 2.5rem auto;
+    color: #222;
+}
+
+.hero-center h2{
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.hero-center p{
+    padding: 0 20rem;
+    line-height: 1.5rem;
+}
+
+/* Media Query - Mobile*/
+/* 
+@media (max-width: 600px){
+
+    .hero{
+        height: 100vh;
+    }
+
+    .hero-center h2{
+        text-transform: capitalize;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-center p{
+        padding: 0 2rem;
+        line-height: 2rem;
+        font-size: 23px;
+    }
+} */
+
+/*********** Posts Section *************/
+
+.container{
+    background: rgba(3, 17, 70, 0.901);
+    color: #222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}
+
+.container div{
+    background: #fff;
+    border-radius: 2%;
+    margin: 0 0.5rem;
+    width: 250px;
+    height: 500px;
+}
+
+.container h3{
+    margin: 2rem 0;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.container p{
+    padding: 0 1.5rem;
+    line-height: 1.5rem;
+}
+
+.container img{
+    border-radius: 2%;
+}
+
+/* Media Query - Mobile*/
+/* 
+@media (max-width: 600px){
+    
+    .container{
+        background: rgba(3, 17, 70, 0.901);
+        color: #222;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        text-align: center;
+        height: 320vh;
+    }
+
+    .container div{
+        background: #fff;
+        border-radius: 2%;
+        margin: 1rem 0.5rem;
+        margin-bottom: 0rem;
+        width: 400px;
+        height: 500px;
+    }
+
+} */
+
+/******** Hero Section 2 ***********/
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.information div{
+    width: 50vw;
+    height: 40vh; 
+    text-align: center;
+    color: #fff;
+}
+
+.information h2{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+}
+
+#contact{
+    background: rgba(20, 139, 230, 0.826);
+}
+
+#about{
+    background: #222;
+}
+
+#email{
+    margin-top: 3rem;
+}
+
+/******* footer **********/
+
+.footer{
+    background: black;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer span{
+    color:  rgba(20, 139, 230, 0.826);
+}
