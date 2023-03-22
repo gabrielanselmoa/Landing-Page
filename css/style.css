@@ -80,8 +80,14 @@ body{
         padding: 8rem 1rem;
         margin: 0 auto;
     }
-
 }
+
+/* @media (max-width: 450px){
+
+    .banner{
+        width: 110vw;
+    }
+} */
 
 /* Middle (Hero) Section */
 
@@ -126,6 +132,18 @@ body{
         line-height: 1.5rem;
     }
 }
+/* 
+@media (max-width: 450px){
+
+    .hero{
+        height: 50vh;
+    }
+
+    .hero-center p{
+        padding: 0 1rem;
+        line-height: 1.5rem;
+    }
+} */
 
 /*********** Posts Section *************/
 
