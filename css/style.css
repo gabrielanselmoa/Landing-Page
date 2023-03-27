@@ -31,6 +31,11 @@ body{
     text-align: center;
     padding: 8rem 6rem;
     margin: 0 auto;
+    transition: all 0.5s linear;
+}
+
+.banner-center:hover{
+    transform: translateY(-20px);
 }
 
 .banner-center h1{
@@ -40,11 +45,16 @@ body{
     margin-bottom: 1.5rem;
 }
 
+/* .banner-center h1:hover{
+    transform: translateY(-20px);
+} */
+
 .banner-center p{
     font-weight: 600;
     line-height: 1.5rem;
     letter-spacing: 0.1rem;
     margin-bottom: 3rem;
+    padding: 0 10rem;
 }
 
 #banner-link{
@@ -57,6 +67,7 @@ body{
     letter-spacing: 1.5px;
     font-size: 18px;
     padding: 1.2rem 1.8rem;
+    transition: all 0.3s;
 }
 
 #banner-link:hover{
@@ -99,7 +110,12 @@ body{
     text-align: center;
     margin: 2.5rem auto;
     color: #222;
+    /* transition: all 0.3s linear; */
 }
+
+/* .hero-center:hover{
+    transform: translateY(20px);
+} */
 
 .hero-center h2{
     text-transform: capitalize;
@@ -164,6 +180,11 @@ body{
     margin: 1rem 0.5rem;
     width: 250px;
     height: 500px;
+    transition: all 1s;
+}
+
+.container div:hover{
+    transform: translateY(-20px);
 }
 
 .container h3{
