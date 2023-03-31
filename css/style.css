@@ -31,11 +31,11 @@ body{
     text-align: center;
     padding: 8rem 6rem;
     margin: 0 auto;
-    transition: all 0.5s linear;
+    /* transition: all 0.5s linear; */
 }
 
 .banner-center:hover{
-    transform: translateY(-20px);
+    /* transform: translateY(-20px); */
 }
 
 .banner-center h1{
@@ -44,10 +44,6 @@ body{
     line-height: 3rem;
     margin-bottom: 1.5rem;
 }
-
-/* .banner-center h1:hover{
-    transform: translateY(-20px);
-} */
 
 .banner-center p{
     font-weight: 600;
@@ -67,7 +63,7 @@ body{
     letter-spacing: 1.5px;
     font-size: 18px;
     padding: 1.2rem 1.8rem;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 #banner-link:hover{
